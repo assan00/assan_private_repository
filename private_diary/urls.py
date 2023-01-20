@@ -6,7 +6,7 @@ from . import settings_common, settings_dev
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
-    path('control-site/',admin.site.urls),
+    path('control-site/', admin.site.urls),
     path('', include('diary.urls')),
     path('accounts/', include('allauth.urls')),
 ]
