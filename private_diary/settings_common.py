@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'django_ses',
 
 ]
+#a
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
