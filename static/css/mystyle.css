@@ -11,3 +11,20 @@ footer {
 .my-div-style {
     margin-top: 6rem;
 }
+
+p.under-line {
+   border-bottom: 1px solid black;
+}
+
+.input_outline {
+    height: auto;
+    width: auto;
+}
+
+.serch_title_context_form {
+    height: auto;
+    display: flex !important;
+    white-space: pre;
+}
+
+

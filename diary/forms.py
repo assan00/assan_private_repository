@@ -56,3 +56,16 @@ class DiaryCreateForm(forms.ModelForm):
         super().__init__(*args, **kwargs)
         for field in self.fields.values():
             field.widget.attrs['class'] = 'form-control'
+
+
+
+class TitleSerchInquiryForm(forms.ModelForm):
+    class Meta:
+        model = Diary
+        fields = ('title',)
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields['title'].widget.attrs['placeholder'] = 'タイトルをここに入力して検索'
+        for field in self.fields.values():
+            field.widget.attrs['class'] = 'form-control'

@@ -27,7 +27,7 @@ INSTALLED_APPS = [
     'allauth.account',
 
     'django_bootstrap5',
-    'django_ses',
+    #'django_ses',
 
 ]
 
